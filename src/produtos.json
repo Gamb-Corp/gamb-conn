@@ -1,0 +1,10 @@
+{
+  id: 1,
+  nome: 'MENTOS PURE FRESH - FRESH MINT',
+  codigo_ean13: '7895144080116',
+  preco: '15.00',
+  desconto: '11.00',
+  carrossel: 1,
+  created_at: 2024-03-02T03:21:53.000Z,
+  updated_at: 2024-03-02T03:21:53.000Z
+}

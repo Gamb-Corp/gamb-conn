@@ -1,13 +1,16 @@
 const { BrowserWindow } = require('electron')
 const { app } = require('electron/main')
 const { shell } = require('electron/common')
-
 const path = require('node:path')
 
-// Handle creating/removing shortcuts on Windows when installing/uninstalling.
+const database = require('./database.js')
+
 if (require('electron-squirrel-startup')) {
   app.quit()
 }
+
+result = database.getRowsAndFields()
+console.log(result)
 
 const createWindow = () => {
   // Create the browser window.
